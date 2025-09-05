@@ -1,8 +1,88 @@
-# React + Vite
+# 🦘 Kan-Guroo: საერთაშორისო განათლების პლატფორმა
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Kan-Guroo არის თანამედროვე ვებ-აპლიკაცია, რომელიც შექმნილია React-ისა და TypeScript-ის გამოყენებით. პლატფორმის მიზანია, დაეხმაროს სტუდენტებს საერთაშორისო გაცვლითი პროგრამების, საზაფხულო სკოლებისა და სასწავლო კურსების აღმოჩენაში.
 
-Currently, two official plugins are available:
+## 📋 სარჩევი
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* [ფუნქციონალი](#-ფუნქციონალი)
+* [გამოყენებული ტექნოლოგიები](#-გამოყენებული-ტექნოლოგიები))
+* [პროექტის სტრუქტურა](#-პროექტის-სტრუქტურა)
+* [გარემოს ცვლადები (.env)](#-გარემოს-ცვლადები-env)
+* [ინტერნაციონალიზაცია (i18n)](#-ინტერნაციონალიზაცია-i18n)
+
+---
+
+## ✨ ფუნქციონალი
+
+* **მრავალგვერდიანი არქიტექტურა:** მთავარი, ჩვენ შესახებ, პროგრამები, კონტაქტი და პროფილის გვერდები.
+* **ადაპტიური დიზაინი:** საიტი სრულად მორგებულია დესკტოპ, პლანშეტურ და მობილურ მოწყობილობებზე.
+* **ინტერნაციონალიზაცია (i18n):** სრული მხარდაჭერა ორი ენისთვის (ქართული, ინგლისური) `react-i18next`-ის გამოყენებით.
+* **ღია/მუქი თემა:** მომხმარებელს შეუძლია აირჩიოს სასურველი ვიზუალური თემა.
+* **დინამიური კომპონენტები:** ანიმაციები (`Framer Motion`) და ინტერაქტიული სლაიდერი (`Swiper.js`).
+* **პროფილის გვერდი:** მომხმარებლის მონაცემების ჩვენება და სისტემიდან გასვლის ფუნქცია.
+* **საკონტაქტო ფორმა:** მუშა საკონტაქტო ფორმა `EmailJS`-ის ინტეგრაციით.
+* **მონაცემებზე დაფუძნებული სექციები:** "ჩვენი გუნდი", "პარტნიორები", "პროგრამები" და სხვა სექციები იღებენ მონაცემებს ცალკე ფაილებიდან, რაც აადვილებს მათ განახლებას.
+
+---
+
+## 🛠️ გამოყენებული ტექნოლოგიები
+
+* **ბიბლიოთეკა:** [React](https://reactjs.org/)
+* **ენა:** [TypeScript](https://www.typescriptlang.org/)
+* **სტილები:** [Tailwind CSS](https://tailwindcss.com/)
+* **ნავიგაცია:** [React Router DOM](https://reactrouter.com/)
+* **ანიმაცია:** [Framer Motion](https://www.framer.com/motion/)
+* **თარგმანი:** [React i18next](https://react.i18next.com/)
+* **სლაიდერი:** [Swiper.js](https://swiperjs.com/)
+* **იკონები:** [React Icons](https://react-icons.github.io/react-icons/)
+* **იმეილის გაგზავნა:** [EmailJS](https://www.emailjs.com/)
+
+
+## 📁 პროექტის სტრუქტურა
+
+პროექტს აქვს შემდეგი სტრუქტურა:
+
+```
+/public
+  dots-pattern.svg  # ფონისთვის საჭირო SVG
+/src
+  /assets         # სურათები, ლოგოები, ფონტები
+  /components     # გადასაყენებადი კომპონენტები (Navbar, Footer, SectionTitle)
+  /constants      # მონაცემების მასივები (footerData, AboutInfo)
+  /pages          # მთავარი გვერდები (HomePage, AboutUsPage)
+  i18n.ts         # i18next-ის კონფიგურაცია
+  App.tsx         # მთავარი კომპონენტი და ნავიგაცია
+  index.tsx       # აპლიკაციის საწყისი წერტილი
+.env.local        # გარემოს ცვლადები
+tailwind.config.js # Tailwind CSS-ის კონფიგურაცია
+```
+
+---
+
+## 🔑 გარემოს ცვლადები (.env)
+
+საკონტაქტო ფორმის ასამუშავებლად საჭიროა `EmailJS`-ის გასაღებები. შექმენით `.env.local` ფაილი პროექტის მთავარ დირექტორიაში და დაამატეთ შემდეგი ცვლადები:
+
+```env
+REACT_APP_EMAILJS_SERVICE_ID=YOUR_SERVICE_ID
+REACT_APP_EMAILJS_TEMPLATE_ID=YOUR_TEMPLATE_ID
+REACT_APP_EMAILJS_PUBLIC_KEY=YOUR_PUBLIC_KEY
+```
+ამ გასაღებებს იპოვით თქვენს EmailJS-ის პირად კაბინეტში.
+
+---
+
+## 🌐 ინტერნაციონალიზაცია (i18n)
+
+საიტის თარგმანები იმართება `react-i18next`-ის საშუალებით.
+* **თარგმანის ფაილები:** ყველა ტექსტი ინახება `public/locales/{en|ka}/translation.json` ფაილებში.
+* **სტრუქტურა:** ტექსტები დაჯგუფებულია გვერდებისა და კომპონენტების მიხედვით (`homePage`, `aboutPage`, `footer` და ა.შ.), რაც აადვილებს მათ მართვას.
+* **გამოყენება:** კომპონენტებში ტექსტის გამოსატანად გამოიყენება `useTranslation` hook-ი. მაგ: `const { t } = useTranslation(); <h1>{t('homePage.header.title')}</h1>`.
+
+---
+
+### ხელმისაწვდომი სკრიპტები
+
+* `npm start`: აპლიკაციის გაშვება დეველოპმენტ რეჟიმში.
+* `npm run build`: აპლიკაციის საბოლოო ვერსიის (production build) შექმნა.
+* `npm test`: ტესტების გაშვება.
