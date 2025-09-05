@@ -46,7 +46,7 @@ const SocialLinks: React.FC = () => {
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
-      className="flex space-x-4"
+      className="flex space-x-2"
     >
       {socialLinks.map((link) => (
         <motion.a

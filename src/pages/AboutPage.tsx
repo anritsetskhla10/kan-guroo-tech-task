@@ -57,7 +57,7 @@ const AboutUsPage = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.5 }}
-            className="text-center max-w-3xl mx-auto text-text-secondary mb-12"
+            className="text-center max-w-3xl mx-auto text-black mb-12"
           >
             {t('aboutPage.mission.description')}
           </motion.p>
@@ -149,7 +149,7 @@ const AboutUsPage = () => {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.5 }}
-              className="text-center max-w-3xl mx-auto text-text-secondary mb-12"
+              className="text-center max-w-3xl mx-auto text-black mb-12"
             >
               {t('aboutPage.team.description')}
             </motion.p>

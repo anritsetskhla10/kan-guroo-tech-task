@@ -100,7 +100,7 @@ const Footer: React.FC<FooterProps> = ({ theme, toggleTheme }) => {
         {/* Footer Bottom */}
         <div className="py-6 bg-light-gray dark:bg-[#0003] text-center text-xs text-gray-800 dark:text-gray-400">
           <p>
-            © {new Date().getFullYear()} <a href="https://kan-guroo.com" target="_blank" rel="noopener noreferrer" className="text-yellow-500 ...">Kan-Guroo.com</a>. {t('footer.copyright')}
+            © {new Date().getFullYear()} <a href="#" target="_blank" rel="noopener noreferrer" className="text-yellow-500 ...">Kan-Guroo.com</a>. {t('footer.copyright')}
           </p>
         </div>
     </footer>
