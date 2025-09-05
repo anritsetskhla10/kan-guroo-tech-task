@@ -1,0 +1,206 @@
+{
+    "signin": {
+    "title": "Welcome back",
+    "subtitle": "Please enter your details",
+    "emailLabel": "Email address",
+    "passwordLabel": "Password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "button": "Sign In",
+    "googleButton": "Sign in with Google",
+    "noAccount": "Don't have an account?",
+    "signUpLink": "Sign up",
+    "error": "Email or password incorrect.",
+    "asGuestButton": "Continue as Guest"
+  },
+  "signup": {
+    "title": "Create an account",
+    "subtitle": "Join us and start your journey",
+    "nameLabel": "Full name",
+    "emailLabel": "Email address",
+    "passwordLabel": "Password",
+    "button": "Sign Up",
+    "hasAccount": "Already have an account?",
+    "signInLink": "Sign in",
+    "passwordError": "Password must be at least 6 characters.",
+    "emailExistsError": "A user with this email already exists."
+  },
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "contact": "Contact",
+    "profile": "Profile",
+    "logout": "Log Out",
+    "signin": "Sign In",
+    "theme": "Theme"
+  },
+  "footer": {
+    "description": "Kan-Guroo is an international education platform",
+    "quickLinksTitle": "Quick Links",
+    "programsTitle": "Programs",
+    "contactTitle": "Contact Us",
+    "copyright": "All rights reserved.",
+    "quickLinks": {
+      "home": "Home",
+      "about": "About Us",
+      "programs": "Programs",
+      "forSchools": "For Schools",
+      "mentorship": "Kan-Guroo Mentorship",
+      "contact": "Contact"
+    },
+    "programLinks": {
+      "studyAbroad": "Study Abroad",
+      "languageCourses": "Language Courses",
+      "summerSchools": "Summer Schools",
+      "scholarships": "Scholarships"
+    },
+    "contactItems": {
+      "bookConsultation": "Book a Consultation"
+    }
+  },
+  "profilePage": {
+    "title": "My Profile",
+    "subtitle": "Welcome! Here you can view your account details.",
+    "greeting": "Welcome Back",
+    "nameLabel": "Name",
+    "emailLabel": "Email"
+  },
+  "contactPage": {
+    "hero": {
+      "title": "Contact Us",
+      "subtitle": "Have questions? Want more information? Fill out the form and our team will get in touch with you."
+    },
+    "form": {
+      "title": "Get in Touch",
+      "subtitle": "Fill out the form and our team will get in touch with you.",
+      "nameLabel": "Full Name",
+      "namePlaceholder": "e.g. Luka Kapanadze",
+      "emailLabel": "Email",
+      "emailPlaceholder": "e.g. example@gmail.com",
+      "phoneLabel": "Phone",
+      "phonePlaceholder": "e.g. +995 555 55 55 55",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Write your message here...",
+      "submitButton": "Submit",
+      "submittingButton": "Sending...",
+      "successMessage": "Message sent successfully!",
+      "errorMessage": "Failed to send message. Please try again."
+    },
+    "info": {
+      "title": "Contact Information",
+      "phoneTitle": "Phone",
+      "emailTitle": "Email",
+      "consultationTitle": "Consultation",
+      "consultationText": "Book a Consultation",
+      "socialTitle": "Our Social Media"
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "title": "About Us",
+      "subtitle": "Kan-Guroo is an international education platform that helps you discover exchange programs and create a successful future. 🦘"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "Our mission is to help young people receive the best education in the world’s leading educational institutions and develop their potential on an international level.",
+      "cards": [
+        { "title": "Global Vision", "description": "We help students become global citizens and gain international experience." },
+        { "title": "Innovation", "description": "We use modern approaches and technologies to achieve the best results." },
+        { "title": "Partnership", "description": "We collaborate with leading educational institutions around the world." },
+        { "title": "Growth", "description": "We help students discover and develop their potential." }
+      ]
+    },
+    "offer": {
+      "title": "What We Offer",
+      "cards": [
+        { 
+          "title": "Bi-weekly meetings", 
+          "points": [
+            "Seminars and discussions on international education", 
+            "Overview of exchange programs and international competitions", 
+            "Workshops across business, science, arts, and more"
+          ] 
+        },
+        { 
+          "title": "Exchange Programs & Studying Abroad", 
+          "points": [
+            "Help choosing international exchange programs", 
+            "Consultations for SAT, IELTS, TOEFL exams", 
+            "Meetings with international university reps"
+          ] 
+        },
+        { 
+          "title": "Personalized Consultations", 
+          "points": [
+            "Individual study plan for every student", 
+            "Career direction and profession selection help", 
+            "Financial aid and scholarship information"
+          ] 
+        },
+        { 
+          "title": "Language Learning & Test Prep", 
+          "points": [
+            "Practical courses in English, German and more", 
+            "Simulated international test prep"
+          ] 
+        }
+      ]
+    },
+    "team": {
+      "title": "Our Team",
+      "description": "The Kan-Guroo team is made up of experienced professionals with years of experience in the field of international education.",
+      "names": [
+        "Otari Melanashvili",
+        "Saba Gelashvili",
+        "Lasha Bevia"
+      ],
+      "roles": [
+        "Co-Founder & CEO",
+        "Co-Founder",
+        "Co-Founder"
+      ]
+    }
+  },
+  "homePage": {
+    "header": {
+      "title": "Discover opportunities with Kan-Guroo 🦘",
+      "subtitle": "Start your journey in international education, explore exchange programs and build a successful future.",
+      "buttonPrograms": "Exchange Programs",
+      "buttonAbout": "About Us"
+    },
+    "partnersSection": {
+    "title": "Our Partners",
+    "subtitle": "Kan-Guroo collaborates with leading educational institutions worldwide to offer you the best exchange programs.",
+    "list": [
+        "Tbilisi N64 Public School", "Aqua Liberty Hotel", "Bull & Bear Journal", "British University of Georgia",
+        "Buckswood School", "CEA", "School Lomisi", "School Progress",
+        "Step Toward Success", "Trader's Hub", "European School"
+    ]
+  },
+  "programsSection": {
+    "title": "Programs",
+    "cards": [
+      {
+        "title": "Academic Programs",
+        "description": "Prepare for international exams (SAT, IELTS, TOEFL) and enroll in the world's top universities."
+      },
+      {
+        "title": "Exchange Programs",
+        "description": "Discover short-term and long-term exchange programs in Europe and the USA."
+      },
+      {
+        "title": "Career Development",
+        "description": "Receive personal consultation on choosing a profession and planning your career path."
+      },
+      {
+        "title": "Language Courses",
+        "description": "Learn English, German, and other languages with modern methods."
+      }
+    ],
+    "button": "Book a Consultation →"
+    },
+  "videoSection": {
+      "title": "Kan-Guroo Main Video"
+    }
+  }
+}

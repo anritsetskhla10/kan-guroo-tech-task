@@ -1,0 +1,29 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  font-family: "Inter", sans-serif;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+
+.mySwiper .swiper-pagination {
+  bottom: 0 !important;
+}
+.mySwiper .swiper-button-prev,
+.mySwiper .swiper-button-next {
+  @apply  z-10 text-black;
+}
+
+.mySwiper .swiper-button-prev {
+  @apply left-0;
+}
+
+.mySwiper .swiper-button-next {
+  @apply right-0;
+}
